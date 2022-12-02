@@ -341,6 +341,54 @@ Writing objects: 100% (4/4), 283 bytes | 283.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/paru2313/devopslearning.git
  * [new branch]      master -> master
+ 
+git clone "url"
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 30-11-2022
+ git pull origin master
+ 
+ working area    - git add " file name
+ staging area    - git commit " added files "
+ local ripo      - git push origin master
+ remote ripo     - git pull origin master
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1-12-2022
+what is merge confit 
+how to resolve merge confit
+git log
+git merge 
+vi file.txt 
+echo
+
+difference bitween git and github
+git is commandline tool
+git hub is repository
+merging with remote changes
+git pull origin master  --allow-unrelated-histories
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+02-12-2022
+
+what is branch 
+when we will use branch 
+how to create branch in  local
+how to create branch in remote
+how to list local and remote branchs
+how to switch  1 branch to 2 branch
+how to merge one branch to anothe barnch
+how to delete a branch in local and remote
+
+rm -rf .git
+git branch -l :list a local branchs
+git branch -a :list a remote branchs
+git branch file name
+git checkout name
+git merge name
+git fetch
+git branch -d branch name : local ripo lo file delete chayatam ki use chstaru
+git push -d origin fixbugs: remote ripo lo file delete chayatm ki use chestaru
+git checkout -b  branch name : create new branch and checkout to branch
+
+
+
